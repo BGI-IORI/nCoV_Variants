@@ -1,0 +1,26 @@
+###Env
+perl = /XXX/perl 
+python = /XXX/python 
+java = /XXX/java
+
+################################### Tools and database
+###freebayes
+freebayes = /XXX/freebayes
+freebayes_Parameters = -m 60 -q 20 -p 1 --min-coverage 10 -V
+###snippy
+snippy_Vcf_filter = /XXX/snippy-vcf_filter
+snippy_Parameters = --minqual 100 --mincov 10 --minfrac 0.8
+###snpEff
+snpEff = /XXX/snpEff.jar
+snpEff_cfg = /XXX/snpEff.config
+snpEff_Parameters = -v EPI_ISL_402119 
+###mafft
+mafft = /XXX/mafft
+mafft_Parameters = --auto
+###pysamstats
+pysamstats = /XXX/pysamstats  
+pysamstats_Parameters = --type variation_strand --min-baseq 20 -D 1000000
+###database
+Ref = /XXX/EPI_ISL_402119.fasta
+RefID = BetaCoV/Wuhan/IVDC-HB-01/2019|EPI_ISL_402119
+
