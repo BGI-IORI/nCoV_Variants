@@ -27,7 +27,7 @@ Software for base calls
 
 ## Installation
 ```
-git clone 
+git clone  https://github.com/BGI-IORI/nCoV_Variants.git
 ```
 Notes: The above dependent software needs to be installed separately according to their instructions. After installing, the users should edit the input.config file, and change the software path to your own path.
 
