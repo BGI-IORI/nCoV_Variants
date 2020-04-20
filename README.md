@@ -1,9 +1,9 @@
-# nCoV_SNV
+# nCoV_Variants
 
 ## Introduction
 nCoV_Variants is a pipeline for variants calling of HCoV-19 virus. The pipeline could  call SNVs (Single-Nucleotide Variants) from HCoV-19 sequencing data.
 
-![Image](https://github.com/BGI-IORI/nCoV/blob/master/Image.png)
+![Image](https://github.com/BGI-IORI/nCoV_Variants/blob/master/nCoV_Variants.png)
 
 ## Requirements:
 perl: v5.22.0  
@@ -57,3 +57,4 @@ sh allDependent.sh
 ./outpath/all_Var_Summary.xls
 #The results will be generated only when CNS.txt or ASS.txt was as input.
 ```
+
