@@ -48,7 +48,7 @@ sh allDependent.sh
 ```
 
 ## Output
-1.SNV from fFreebayes
+1.SNV from Freebayes
 ```
 ./outpath/all_freebayesVar.xls
 ```
