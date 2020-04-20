@@ -42,7 +42,7 @@ perl nCoV_Variants.pl -s input.config -b bam.txt -c CNS.txt -a ASS.txt -o ./outp
 cd ./outpath/shellall/
 sh allDependent.sh
 #Notes: bam.txt file is required. CNS.txt and ASS.txt is optional
-#bam.txt includes two columns, name and bam path (the bam should be sorted)
+#bam.txt includes two columns, name and bam path (the bam should be sorted and indexed with Samtools)
 #CNS.txt includes two columns, name and consensus.fa (the orientation should be same with reference) 
 #ASS.txt includes two columns, name and assembly.fa (the orientation should be same with reference, and it’s better to cut off the UTR region)
 ```
