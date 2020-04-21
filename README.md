@@ -47,6 +47,9 @@ sh allDependent.sh
 #ASS.txt includes two columns, name and assembly.fa (the orientation should be same with reference, and it’s better to cut off the UTR region)
 ```
 
+## Parameters
+Default parameters for SNV calling and filtering was preset in input.config file. The minimum depth was set to 10X. The mapping quality was set to 60, the base quality was set to 20, the quality of SNV was set to 100, and the minimum alternate allele fraction was set to 0.8. The users can adjust the parameters by editing the input.config file.
+
 ## Output
 1.SNV from Freebayes
 ```
